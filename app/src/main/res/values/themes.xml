@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SpeechTherapistApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    
+    <style name="ProgressBar_C1">
+        <item name="android:indeterminateOnly">false</item> //change false or true to see effect
+        <item name="android:progressDrawable">@drawable/custom_progress_c1</item>
+        <item name="android:indeterminateDrawable">@drawable/custom_progress_c1</item>
+    </style>
+    <style name="ProgressBar_C2">
+        <item name="android:indeterminateOnly">false</item> //change false or true to see effect
+        <item name="android:progressDrawable">@drawable/custom_progress_c2</item>
+        <item name="android:indeterminateDrawable">@drawable/custom_progress_c2</item>
+    </style>
+    <style name="ProgressBar_C3">
+        <item name="android:indeterminateOnly">false</item> //change false or true to see effect
+        <item name="android:progressDrawable">@drawable/custom_progress_c3</item>
+        <item name="android:indeterminateDrawable">@drawable/custom_progress_c3</item>
+    </style>
+    <style name="ProgressBar_C4">
+        <item name="android:indeterminateOnly">false</item> //change false or true to see effect
+        <item name="android:progressDrawable">@drawable/custom_progress_c4</item>
+        <item name="android:indeterminateDrawable">@drawable/custom_progress_c4</item>
+    </style>
+    <style name="ProgressBar_C5">
+        <item name="android:indeterminateOnly">false</item> //change false or true to see effect
+        <item name="android:progressDrawable">@drawable/custom_progress_c5</item>
+        <item name="android:indeterminateDrawable">@drawable/custom_progress_c5</item>
+    </style>
+    <style name="ProgressBar_C6">
+        <item name="android:indeterminateOnly">false</item> //change false or true to see effect
+        <item name="android:progressDrawable">@drawable/custom_progress_c6</item>
+        <item name="android:indeterminateDrawable">@drawable/custom_progress_c6</item>
+    </style>
+
+    <style name="NeumorphismImage">
+        <item name="neumorph_cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/_4sdp</item>
+    </style>
+
+</resources>
